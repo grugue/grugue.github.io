@@ -2,6 +2,23 @@
   "relation": ["delegate_permission/common.handle_all_urls"],
   "target": {
     "namespace": "android_app",
+    "package_name": "com.netcetera.atp.app.dev",
+    "sha256_cert_fingerprints":
+    ["21:D8:BA:4F:42:CD:00:A4:5E:6F:A0:06:62:4F:A5:15:74:2A:C7:3B:FF:E7:E0:F6:00:8C:25:F1:6C:3D:99:C2"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.netcetera.atp.app.dev.debug",
+    "sha256_cert_fingerprints":
+    ["21:D8:BA:4F:42:CD:00:A4:5E:6F:A0:06:62:4F:A5:15:74:2A:C7:3B:FF:E7:E0:F6:00:8C:25:F1:6C:3D:99:C2"]
+  }
+}{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
     "package_name": "com.netcetera.atp.app.integ.debug",
     "sha256_cert_fingerprints":
     ["21:D8:BA:4F:42:CD:00:A4:5E:6F:A0:06:62:4F:A5:15:74:2A:C7:3B:FF:E7:E0:F6:00:8C:25:F1:6C:3D:99:C2"]
